@@ -28,5 +28,53 @@ ROS2 turtlebot3_navigation2 패키지를 사용하여 장애물을 회피하면�
 
 
 
+
+**정면 카메라 주차 공간 발견시 진입후 정지**
+
+
+로봇이 회전중일때 이때는 정면 카메라가 주차 공간을 찾고있습니다.
+정면카메라가 주차 공간을 발견하게되면
+주차 공간에 진입하고 정지합니다.
+
+
+![주차공간 진입 ㅁ찐](https://github.com/rkskwhdgh123/Capstone-Design/assets/103232943/99ef8145-a8c3-4776-b7e7-4872bddabbb4)    
+
+
+  
+</br>
+</br>
+
+![진입 전방카메라](https://github.com/rkskwhdgh123/Capstone-Design/assets/103232943/5fa8ef74-9540-44f2-a7b0-fcb7bfcebd00)
+
+
+</br>
+</br>
+
+**정확한 위치로 주차가 될수 있도록 보정**
+
+
+
+다음은정확한 위치에 주차가 완료되도록 넣은 기능입니다.
+코너 검출 알고리즘을 이용해 두개의 빨간색 원이 그려지면
+중심좌표에 초록색 원을 그리게 됩니다.
+그리고 잠시 뒤에 이 좌표를 고정한뒤 로봇을 후진하고
+이 좌표가 중심점에 오도록 모터를 조정하고 다시 주차 공간에 진입해
+정확한 위치에 들어갈수있도록 만들었습니다.
+
+
+![ezgif com-resize (2)](https://github.com/rkskwhdgh123/Capstone-Design/assets/103232943/79abd75a-70b2-404e-92d7-9efe1902350e)
+
+</br>
+</br>
+
+![주차보정](https://github.com/rkskwhdgh123/Capstone-Design/assets/103232943/46852f51-8705-4441-a3f5-70a425d7295c)
+
+
+</br>
+</br>
+
+
+
+
 YouTube 영상 첨부
 https://www.youtube.com/watch?v=tupCxr6IsIs
