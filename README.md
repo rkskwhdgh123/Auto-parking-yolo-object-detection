@@ -11,6 +11,12 @@ ROS2 turtlebot3_navigation2 패키지를 사용하여 장애물을 회피하면�
 
 
 기능 2 주차 가능 여부 판단  
+yolo3_tiny와 yolo4_tiny를 비교하여
+정확성이 높은 yolo4_tiny 가중치 파일을 사용했습니다.  
+
+오른쪽 화살표 => 오른쪽 주차 가능 판단  
+왼쪽 화살표 => 왼쪽 주차 가능 판단  
+정지 => 주차 불가   
 
 ![주차방향인식](https://github.com/rkskwhdgh123/Capstone-Design/assets/103232943/bdda9841-416d-4f15-9b2b-54b7e179c2cd)
 
@@ -23,7 +29,6 @@ ROS2 turtlebot3_navigation2 패키지를 사용하여 장애물을 회피하면�
 
 ![주차공간 진입 각도](https://github.com/rkskwhdgh123/Capstone-Design/assets/103232943/932f4506-4fdc-4713-859f-febbf531f770)    
 
-</br>
 </br>
 
 ![방향 지정](https://github.com/rkskwhdgh123/Capstone-Design/assets/103232943/f3f15da8-3e1c-425d-b305-1ced1efb3be8)
