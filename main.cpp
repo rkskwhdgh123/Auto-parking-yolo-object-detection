@@ -165,6 +165,6 @@ int main()
 		
 	}
 
-	dxl.dxl_close(); //dxl 오픈.
+	dxl.dxl_close(); //dxl 닫기.
 	return 0;
 }
