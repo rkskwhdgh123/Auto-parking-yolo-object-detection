@@ -5,6 +5,8 @@ ROS2 turtlebot3_navigation2 패키지를 사용하여 장애물을 회피하면�
 기능 1 표지판 인식 및 보정  
 : 표지판과 근접시 모터를 미세조종하여 표지판을 정확히 인식할수있도록 보정하는 기능  
 
+![보정](https://github.com/rkskwhdgh123/Capstone-Design/assets/103232943/f3a65836-ed71-4219-bb6a-778a63824bfc)
+
 
 
 
