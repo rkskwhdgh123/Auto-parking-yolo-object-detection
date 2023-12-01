@@ -19,6 +19,12 @@ ROS2 turtlebot3_navigation2 패키지를 사용하여 장애물을 회피하면�
 기능 3 주차   
 
 
+![주차공간 진입 각도](https://github.com/rkskwhdgh123/Capstone-Design/assets/103232943/932f4506-4fdc-4713-859f-febbf531f770)    
+
+</br>
+</br>
+
+![방향 지정](https://github.com/rkskwhdgh123/Capstone-Design/assets/103232943/f3f15da8-3e1c-425d-b305-1ced1efb3be8)
 
 
 
